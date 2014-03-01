@@ -1,0 +1,12 @@
+# http://www.spoj.com/problems/BISHOPS
+# Author - Ashish Kedia, NITK Surathkal
+#@ashish1294
+import sys
+
+for line in sys.stdin:
+	a=int(line)
+	if(a==1):
+		ans=1
+	else:
+		ans = (2*a) - 2
+	print(ans)
